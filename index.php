@@ -4,6 +4,7 @@ include 'includes/head.php';
 include 'includes/navigation.php';
 
 ?>
+<!-- I updated -->
 <body id="main_page">
 <div>
   <div>
