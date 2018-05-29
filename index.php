@@ -22,16 +22,14 @@ include 'includes/navigation.php';
     echo 'Current PHP version: ' . phpversion(); ?>
       </p>
     </div>
-  </div>
-  <div class="parallax-bg">
-    <div class="container12">
-      <ul id="scene">
-        <li class="layer" data-depth="0.2">My first Layer!</li>
-        <li class="layer" data-depth="0.6">My second Layer!</li>
-        <li class="layer" data-depth="0.4">My first Layer!</li>
-        <li class="layer" data-depth="0.8">My second Layer!</li>
-      </div>
-    </ul>
+    <div class="parallax-bg">
+        <ul id="scene">
+          <li class="layer" data-depth="0.2">My first Layer!</li>
+          <li class="layer" data-depth="0.6">My second Layer!</li>
+          <li class="layer" data-depth="0.4">My first Layer!</li>
+          <li class="layer" data-depth="0.8">My second Layer!</li>
+      </ul>
+    </div>
   </div>
   <script src="js/parallax.min.js"></script>
   <script>
