@@ -5,6 +5,7 @@ include 'includes/navigation.php';
 
 ?>
 <!-- I updated -->
+<!-- Acum suntem pe parallax -->
 <body id="main_page">
 <div>
   <div>
