@@ -78,6 +78,8 @@ $db->query("INSERT INTO transactions (charge_id ,cart_id ,full_name ,email ,addr
   include 'includes/footer.php';
   ?>
 
+
+
   <h1 class="text-center text-success">Thank You!</h1>
   <p> Your card has been successfully charged <?=money($grand_total);?>. You have been emailed a reciept.( Please check your spam folder as well.)</p>
   <p> Your receipt nummber is: <strong><?=$cart_id;?></strong></p>

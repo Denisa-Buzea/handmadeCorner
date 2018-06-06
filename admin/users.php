@@ -114,17 +114,17 @@
   $userQuery = $db->query("SELECT * FROM users ORDER BY full_name");
 
 ?>
-<h2>Utilizatori</h2>
-<a href="users.php?add=1" class="btn btn-success">Adauga un user</a>
+<h2>Users</h2>
+<a href="users.php?add=1" class="btn btn-success">Add a user</a>
 <hr>
 <table class="table table-bordered table-striped table-condensed">
   <thead>
     <th></th>
-    <th>Nume</th>
+    <th>Name</th>
     <th>Email</th>
-    <th>Data inregistrarii</th>
-    <th>Ultima logare</th>
-    <th>Permisiuni</th>
+    <th>Register Date</th>
+    <th>Last Login</th>
+    <th>Permissions</th>
 
   </thead>
   <tbody>

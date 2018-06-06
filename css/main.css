@@ -58,8 +58,7 @@ img.detalii{
   box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
   margin: 8% auto;
   padding: 15px;
-/*  background: transparent;*/
-background-color: white;
+  background-color: white;
 }
 
 .totals-table-header th{

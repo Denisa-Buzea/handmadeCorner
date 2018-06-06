@@ -14,7 +14,7 @@
   <!-- Main content-->
   <div class="col-md-8">
     <div class="row">
-      <h2 class="text-center">Featured Products</h2>
+      <h2 class="text-center">Featured Products</h2><br>
         <?php
         //$produs = $product in tutorial
           while($product = mysqli_fetch_assoc($featured)) : ?>
@@ -23,7 +23,7 @@
             <h4><?= $product['title']; ?></h4>
             <img src="<?= $product['image']; ?>" alt="<?= $product['title'];?>" class="img-size"/>
             <p class="price">Price: <?= $product['price'];?> RON</p>
-            <button type="button" class="btn btn-sm btn-success" onclick="detailsmodal(<?= $product['id']; ?>)">Details</button>
+            <button type="button" class="btn btn-sm btn-info" onclick="detailsmodal(<?= $product['id']; ?>)">Buy</button>
           </div>
         <?php endwhile; ?>
    </div>

@@ -27,7 +27,7 @@ $parentQuery = $db->query($sql);//use our db object, run a method of query and r
       </li>
     <?php endwhile; ?>
 
-    <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cosul meu</a></li>
+    <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
     <?php if(is_logged_in()){ ?>
     <li class="dropdown">
       <a href="#" clas="dropdown-toggle" data-toggle="dropdown">Hello <?=$user_data['full_name'];?>!

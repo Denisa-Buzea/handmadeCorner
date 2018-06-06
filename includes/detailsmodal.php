@@ -37,7 +37,7 @@ $size_array = explode(',',$sizestring);
             <p><?= nl2br($product['description']);?></p>
             <hr>
             <p>Price:<?= $product['price'];?> RON</p>
-            <p>Pentru model personalizat, accesati rubrica comenzi.</p>
+
             <form action="add_cart.php" method="post" id="add_product_form">
               <input type="hidden" name="product_id" value="<?=$id;?>">
               <input type="hidden" name="available" id="available" value="">
@@ -73,7 +73,7 @@ $size_array = explode(',',$sizestring);
 
 <div class="modal-footer">
   <button class="btn btn-default" onclick="closeModal()">Close</button>
-  <button class="btn btn-warning" onclick="add_to_cart(); return false"><span class="glyphicon glyphicon-shopping-cart"></span>Adauga in cos</button>
+  <button class="btn btn-warning" onclick="add_to_cart(); return false"><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button>
 </div>
 </div>
 </div>

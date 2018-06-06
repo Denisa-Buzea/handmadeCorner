@@ -58,26 +58,26 @@ $errors = array();
     ?>
 
   </div>
-  <h2 class="text-center">Modifica parola</h2><hr>
+  <h2 class="text-center">Modify password</h2><hr>
   <form action = "change_password.php" method="POST">
     <div class="form-group">
-      <label for="old_password">Parola veche:</label>
+      <label for="old_password">Old Password:</label>
       <input type="password" name="old_password" id="old_password" class="form-control" value="<?=$old_password;?>">
     </div>
     <div class="form-group">
-      <label for="password">Parola noua:</label>
+      <label for="password">New Password:</label>
       <input type="password" name="password" id="password" class="form-control" value="<?=$password;?>">
     </div>
     <div class="form-group">
-      <label for="confirm">Confirma noua parola:</label>
+      <label for="confirm">Confirm New Password:</label>
       <input type="password" name="confirm" id="confirm" class="form-control" value="<?=$confirm;?>">
     </div>
     <div class="form-group">
-      <a href="administrator.php" class="btn btn-default">Anulare</a>
+      <a href="administrator.php" class="btn btn-default">Cancel</a>
       <input type="submit" value="Login" class="btn btn-primary">
     </div>
   </form>
-  <p class=text-right><a href="/handmadeCorner/index.php" alt="home">Viziteaza site-ul</a></p>
+  <p class=text-right><a href="/handmadeCorner/index.php" alt="home">Visit Site</a></p>
 </div>
 
 
